@@ -1,0 +1,90 @@
+timezone: America/Sao_Paulo
+request_delay_min_seconds: 1.0
+request_delay_max_seconds: 2.0
+navigation_timeout_ms: 30000
+navigation_retries: 2
+max_candidates: 5
+max_search_queries_per_store: 9
+parallel_stores: true
+# Cache persistente somente de rotas/URLs. O preço NUNCA é reutilizado: a
+# página detalhada é reaberta e relida em toda execução.
+route_cache_enabled: true
+route_cache_bootstrap_previous_run: true
+route_cache_failures_before_invalidate: 2
+# Se a página detalhada confirma o produto EXATO mas o preço não é capturado,
+# reabre a mesma URL antes de permitir qualquer fallback de variante.
+exact_detail_price_retries: 1
+exact_detail_retry_delay_ms: 250
+# Quantos candidatos no máximo podem ter a página detalhada aberta quando o
+# primeiro candidato não confirmar identidade/preço.
+max_detail_candidates_per_product: 3
+# Grava estado atômico após cada produto. Se houver interrupção, a próxima
+# execução retoma apenas o que faltou, desde que a lista seja a mesma.
+checkpoint_every_items: 1
+resume_checkpoint: true
+# Limite absoluto por loja/produto e circuito de falhas consecutivas. Evitam
+# que uma indisponibilidade externa consuma horas sem progresso.
+product_timeout_seconds: 180
+max_consecutive_hard_failures: 2
+# Pode ser desligado para comparação A/B sem remover código. Quando ativo, a
+# Coocerqui abre cedo somente um card já classificado como EXATO; substitutos
+# aguardam a expansão normal da busca.
+coocerqui_fast_path_enabled: true
+# A troca de filial no site ao vivo pode deixar a busca montada sem cards até
+# uma recarga. Recarrega no máximo uma vez e somente quando a página não declara
+# explicitamente que a busca não tem resultados.
+coocerqui_blank_search_reload_enabled: true
+coocerqui_blank_search_recovery_timeout_ms: 10000
+coocerqui_max_result_scrolls: 10
+coocerqui_result_scroll_wait_ms: 1100
+save_screenshots: true
+strict_store_confirmation: true
+
+stores:
+  coocerqui:
+    name: "Coocerqui — Tietê San Juan"
+    base_url: "https://www.loja.coocerqui.com.br/"
+    search_url: "https://www.loja.coocerqui.com.br/busca?termo={query}"
+    product_href_contains: "/produto/"
+    selectors:
+      result_card: ".vip-card-produto"
+      result_title: '[data-cy="produto-descricao"]'
+      product_title: "h1"
+      # Opcional: quando preenchidos, estes nós têm prioridade sobre o texto
+      # inteiro do card para reduzir falsos preços por banners/parcelas.
+      price_current: ""
+      price_original: ""
+      price_unit: ""
+      promo_badge: ""
+      delivery_button_name: "Entrega ou Retirada"
+      store_option_text: "Coocerqui - San Juan"
+      store_tile: "vip-card-endereco-entrega"
+      selected_store_button: 'button[aria-label="Entrega ou Retirada"]'
+    expected_store_terms:
+      - "San Juan"
+      - "Alberto San Juan"
+      - "Tietê"
+    expected_address_terms:
+      - "Av. Dr. Alberto San Juan"
+      - "400"
+    allow_unconfirmed_online: false
+
+  paguemenos:
+    name: "Supermercados Pague Menos — Loja 42 — Centro de Tietê"
+    base_url: "https://www.superpaguemenos.com.br/"
+    search_urls:
+      - "https://www.superpaguemenos.com.br/{query_slug}/"
+    product_href_contains: "/p"
+    selectors:
+      result_card: ".item-product"
+      result_title: ".title a"
+      product_title: "h1"
+      price_current: ""
+      price_original: ""
+      price_unit: ""
+      promo_badge: ""
+    expected_store_terms:
+      - "Loja 42"
+      - "Tietê"
+      - "Centro"
+    allow_unconfirmed_online: false

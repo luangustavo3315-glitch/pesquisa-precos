@@ -1,0 +1,6 @@
+playwright>=1.50,<2
+openpyxl>=3.1,<4
+PyYAML>=6.0,<7
+rapidfuzz>=3.9,<4
+tzdata>=2024.1
+lxml>=5.0,<7

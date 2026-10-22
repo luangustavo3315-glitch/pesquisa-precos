@@ -1,0 +1,39 @@
+# Ambiente local e IDEs
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.vscode/
+.idea/
+
+# Credenciais e arquivos locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Resultados, caches e evidências de execução
+output/
+evidencias/
+logs/
+audit_runtime/
+*.log
+*.tmp
+
+# Arquivos de testes e avaliações, caso existam localmente
+tests/
+analysis/
+.pytest_cache/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+coverage.xml
+playwright-report/
+test-results/
+mutants/
+__pypackages__/

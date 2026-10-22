@@ -1,0 +1,375 @@
+{
+  "schema_version": 1,
+  "description": "Equivalências de nomenclatura utilizadas nas consultas. Não alteram peso, sabor, variante ou unidade de venda.",
+  "products": [
+    {
+      "produto_planilha": "Achocolatado toddy 370 g original",
+      "aliases_coocerqui": [
+        "Achoc.toddy 370g Pt"
+      ]
+    },
+    {
+      "produto_planilha": "Biscoito nabisco 144 g club social original",
+      "aliases_coocerqui": [
+        "Bisc.club Social Original 144g"
+      ],
+      "aliases_paguemenos": [
+        "Biscoito Club Social Tradicional 144g"
+      ]
+    },
+    {
+      "produto_planilha": "Biscoito nestle 130 g passatempo chocolate",
+      "aliases_coocerqui": [
+        "Bisc.nestle Passatempo Rech Chocol 130g"
+      ]
+    },
+    {
+      "produto_planilha": "Biscoito trakinas 126 g carinhas chocolate",
+      "aliases_coocerqui": [
+        "Bisc.trakinas Chocolate 126g"
+      ],
+      "aliases_paguemenos": [
+        "Biscoito Recheado Trakinas Chocolate 126g"
+      ]
+    },
+    {
+      "produto_planilha": "Biscoito triunfo multipack 345 g leite",
+      "aliases_coocerqui": [
+        "Bisc.triunfo Leite 345g"
+      ],
+      "aliases_paguemenos": [
+        "Biscoito Triunfo Leite 345g"
+      ]
+    },
+    {
+      "produto_planilha": "Creme de leite nestle 200 g caixa",
+      "aliases_coocerqui": [
+        "Creme De Leite Nestle 200g Tp"
+      ],
+      "aliases_paguemenos": [
+        "Creme de Leite Nestlé 200g"
+      ]
+    },
+    {
+      "produto_planilha": "Creme de leite piracanjuba 200 g caixa",
+      "aliases_coocerqui": [
+        "Creme De Leite Piracanjuba 200g Tp"
+      ],
+      "aliases_paguemenos": [
+        "Creme de Leite Piracanjuba 200g"
+      ]
+    },
+    {
+      "produto_planilha": "Ervilha fugini sachet 170 g",
+      "aliases_coocerqui": [
+        "Ervilha Fugini 170g Sc"
+      ],
+      "aliases_paguemenos": [
+        "Ervilha Fugini 170g"
+      ]
+    },
+    {
+      "produto_planilha": "Extrato de tomate elefante 300 g pote",
+      "aliases_coocerqui": [
+        "Extrato De Tomate Elefante 300g Pt"
+      ],
+      "aliases_paguemenos": [
+        "Extrato de Tomate Elefante 300g"
+      ]
+    },
+    {
+      "produto_planilha": "Leite condensado nestle moca integral 395 g lata",
+      "aliases_coocerqui": [
+        "Leite Condensado Moca Nestle 395g Lt"
+      ],
+      "aliases_paguemenos": [
+        "Leite Condensado Moça Integral 395g"
+      ]
+    },
+    {
+      "produto_planilha": "Leite condensado nestle moca semidesnatado 395 g caixa",
+      "aliases_paguemenos": [
+        "Leite Condensado Moça Semidesnatado 395g"
+      ]
+    },
+    {
+      "produto_planilha": "Leite em po itambe 400 g sachet integral",
+      "aliases_coocerqui": [
+        "Leite Em Po Itambe Integral 400g Sc"
+      ],
+      "aliases_paguemenos": [
+        "Leite Em Pó Integral Itambé 400g"
+      ]
+    },
+    {
+      "produto_planilha": "Macarrao basilar 400 g semola espaguete fininho numero 1",
+      "aliases_coocerqui": [
+        "Mac.basilar Semolado Fininho 400g"
+      ]
+    },
+    {
+      "produto_planilha": "Macarrao basilar 400 g semola espaguete numero 2",
+      "aliases_coocerqui": [
+        "Mac.basilar Semolado Espaguete 2 400g"
+      ]
+    },
+    {
+      "produto_planilha": "Macarrao instantaneo nissin 85 g lamen carne",
+      "aliases_coocerqui": [
+        "Mac.nissin Lamen Carne 85g"
+      ]
+    },
+    {
+      "produto_planilha": "Macarrao instantaneo nissin 85 g lamen galinha caipira",
+      "aliases_coocerqui": [
+        "Mac.nissin Lamen Galinha Caipira 85g"
+      ]
+    },
+    {
+      "produto_planilha": "Macarrao renata 500 g com ovos parafuso",
+      "aliases_coocerqui": [
+        "Mac.renata C/ovos Parafuso 2 500g"
+      ]
+    },
+    {
+      "produto_planilha": "Milho verde fugini 170 g sachet",
+      "aliases_coocerqui": [
+        "Milho Verde Fugini 170g Sc"
+      ],
+      "aliases_paguemenos": [
+        "Milho Verde Fugini 170g"
+      ]
+    },
+    {
+      "produto_planilha": "Molho de tomate fugini 300 g sachet tradicional",
+      "aliases_coocerqui": [
+        "Molho Fugini Tradicional 300g Sc"
+      ],
+      "aliases_paguemenos": [
+        "Molho de Tomate Fugini Tradicional 300g"
+      ]
+    },
+    {
+      "produto_planilha": "Refresco em po tang 18 g laranja",
+      "aliases_coocerqui": [
+        "Refres.po Tang Laranja 18g"
+      ],
+      "aliases_paguemenos": [
+        "Suco Em Pó Tang Laranja 18g"
+      ]
+    },
+    {
+      "produto_planilha": "Refresco em po tang 18 g limao",
+      "aliases_coocerqui": [
+        "Refres.po Tang Limao 18g"
+      ],
+      "aliases_paguemenos": [
+        "Suco Em Pó Tang Limão 18g"
+      ]
+    },
+    {
+      "produto_planilha": "Sardinha coqueiro 125 g oleo soja",
+      "aliases_coocerqui": [
+        "Sardinha Coqueiro Com Oleo 125g"
+      ],
+      "aliases_paguemenos": [
+        "Sardinha Coqueiro Com Óleo 125g"
+      ]
+    },
+    {
+      "produto_planilha": "Tempero sazon 60 g vermelho carnes legumes e arroz",
+      "aliases_coocerqui": [
+        "Tempero Sazon Carnes 60g"
+      ]
+    },
+    {
+      "produto_planilha": "Papel higienico Neve Soft neutro 30 m 4 rolos",
+      "aliases_paguemenos": [
+        "Papel Higiênico Neve Folha Dupla 30m Com 4 Unidades"
+      ]
+    },
+    {
+      "produto_planilha": "Presunto sadia fatiado kg",
+      "aliases_coocerqui": [
+        "Presunto Sadia Kg"
+      ]
+    },
+    {
+      "produto_planilha": "Presunto seara levissimo fatiado kg",
+      "aliases_coocerqui": [
+        "Levissimo Seara Kg Grn"
+      ]
+    },
+    {
+      "produto_planilha": "Margarina doriana 500 g com sal",
+      "aliases_coocerqui": [
+        "Margarina Doriana C/sal 500g"
+      ]
+    },
+    {
+      "produto_planilha": "Margarina qualy 500 g com sal",
+      "aliases_coocerqui": [
+        "Margarina Qualy C/sal 500g"
+      ]
+    },
+    {
+      "produto_planilha": "Requeijao catupiry 200 g tradicional",
+      "aliases_coocerqui": [
+        "Requeijao Catupiry Cremoso 200g Cp"
+      ]
+    },
+    {
+      "produto_planilha": "Requeijao tirolez 200 g tradicional",
+      "aliases_coocerqui": [
+        "Requeijao Tirolez Cremoso 200g"
+      ]
+    },
+    {
+      "produto_planilha": "Abacate kg",
+      "aliases_coocerqui": [
+        "Abacate Comum 500g"
+      ]
+    },
+    {
+      "produto_planilha": "Abacaxi perola unidade",
+      "aliases_coocerqui": [
+        "Abacaxi Pérola 1un"
+      ]
+    },
+    {
+      "produto_planilha": "Cebola kg",
+      "aliases_paguemenos": [
+        "Cebola Extra 250g"
+      ]
+    },
+    {
+      "produto_planilha": "Cenoura kg",
+      "aliases_paguemenos": [
+        "Cenoura Extra 200g"
+      ]
+    },
+    {
+      "produto_planilha": "Coco verde unidade",
+      "aliases_coocerqui": [
+        "Coco Verde 1un"
+      ]
+    },
+    {
+      "produto_planilha": "Couve flor unidade",
+      "aliases_coocerqui": [
+        "Couve Flor Un"
+      ]
+    },
+    {
+      "produto_planilha": "Mandioquinha kg",
+      "aliases_paguemenos": [
+        "Mandioquinha Amarela 300g"
+      ]
+    },
+    {
+      "produto_planilha": "Melancia kg",
+      "aliases_paguemenos": [
+        "Melancia Inteira KG"
+      ]
+    },
+    {
+      "produto_planilha": "Copacol posta tilapia 800 g pacote",
+      "aliases_paguemenos": [
+        "Posta de Tilápia Copacol Congelada 800g"
+      ]
+    },
+    {
+      "produto_planilha": "Sorvete kibon 2 l 4 em 1",
+      "aliases_coocerqui": [
+        "Sorv.kibon Cremosissimo 4em1 Tropical 2l"
+      ]
+    },
+    {
+      "produto_planilha": "Arroz broto legal 5 kg agulhinha",
+      "aliases_coocerqui": [
+        "Arroz Broto Legal Tipo 1 5kg"
+      ]
+    },
+    {
+      "produto_planilha": "Arroz prato fino 5 kg agulhinha",
+      "aliases_coocerqui": [
+        "Arroz Prato Fino Tipo 1 5kg"
+      ],
+      "aliases_paguemenos": [
+        "Arroz Branco Prato Fino Tipo 1 5kg"
+      ]
+    },
+    {
+      "produto_planilha": "Arroz scudeler 5 kg agulhinha",
+      "aliases_coocerqui": [
+        "Arroz Scudeler Tipo 1 5kg"
+      ]
+    },
+    {
+      "produto_planilha": "Cafe 3 coracoes 500 g pouch tradicional",
+      "aliases_coocerqui": [
+        "Cafe 3 Coracoes Tradicional 500g"
+      ],
+      "aliases_paguemenos": [
+        "Café 3 Corações Tradicional 500g"
+      ]
+    },
+    {
+      "produto_planilha": "Cafe brasileiro 500 g pouch tradicional",
+      "aliases_coocerqui": [
+        "Cafe Brasileiro Tradicional 500g"
+      ],
+      "aliases_paguemenos": [
+        "Café Brasileiro Tradicional 500g"
+      ]
+    },
+    {
+      "produto_planilha": "Cafe curuca 500 g tradicional",
+      "aliases_coocerqui": [
+        "Cafe Curuca 500g"
+      ]
+    },
+    {
+      "produto_planilha": "Leite longa vida 1 l hercules integral",
+      "aliases_coocerqui": [
+        "Leite Hercules Integral 1l"
+      ]
+    },
+    {
+      "produto_planilha": "Leite longa vida 1 l italac integral",
+      "aliases_coocerqui": [
+        "Leite Italac Integral 1l"
+      ]
+    },
+    {
+      "produto_planilha": "Leite longa vida 1 l jussara integral",
+      "aliases_coocerqui": [
+        "Leite Jussara Integral 1l"
+      ]
+    },
+    {
+      "produto_planilha": "Leite longa vida 1 l nestle ninho integral",
+      "aliases_coocerqui": [
+        "Leite Ninho Integral 1l"
+      ]
+    },
+    {
+      "produto_planilha": "Oleo de soja liza 900 ml pet",
+      "aliases_coocerqui": [
+        "Oleo De Soja Liza 900ml"
+      ],
+      "aliases_paguemenos": [
+        "Óleo de Soja Liza 900ml"
+      ]
+    },
+    {
+      "produto_planilha": "Oleo de soja soya pet 900 ml",
+      "aliases_coocerqui": [
+        "Oleo De Soja Soya 900ml"
+      ],
+      "aliases_paguemenos": [
+        "Óleo de Soja Soya 900ml"
+      ]
+    }
+  ]
+}
